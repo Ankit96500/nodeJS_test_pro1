@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+input[type="url"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+textarea {
+    resize: none;
+    height: 60px;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+textarea {
+    resize: none;
+    height: 60px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+#display-post {
+    width: 400px;
+}
+.post-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.post-item h3 {
+    margin: 0;
+    color: #333;
+}
+.post-item p {
+    color: #555;
+}
+.post-item .comment-section {
+    margin-top: 10px;
+}
+.comment-section input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.comment-section button {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.comment-section button:hover {
+    background-color: #0056b3;
+}
+.comments-display {
+    margin-top: 10px;
+}
+.comments-display p {
+    color: #333;
+    font-style: italic;
+    font-size: 14px;
+}

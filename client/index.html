@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media App</title>
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+
+   
+    <div class="container">
+        <h1>Social Media App</h1>
+        <form id="post-form">
+            <label for="post">Post Url:
+                <input type="url" name="post" id="post" placeholder="Enter the Url.." required>
+            </label>
+            <label for="description">Description:
+                <input type="text" name="description" id="description" placeholder="Add a description..." required>
+            </label>
+            <input type="submit" value="Create Post">
+        </form>
+    </div>
+
+    <!-- display post -->
+    <div id="display-post"></div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+
+    </body>
+</html>
